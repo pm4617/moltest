@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SmokeSute" parallel="none">
+<suite name="SmokeSute" parallel="false">
        <listeners>
-              <listener class-name="src/main/java/MYUTILS/Listener.java"></listener>
+              <listener class-name="MYUTILS.Listener"></listener>
        </listeners>  
-  	<test name="Smoke Test Cases">
-		<classes>
-       		<!-- 	-->
-       			<class name="NewTest" />
-       			       					  
-		</classes>
-  	</test> <!-- Test -->
+  <test name="Regression1">
+    <classes>
+      <class name="moltest.NewTest"/>
+          </classes>
+  </test>
+
 </suite> <!-- Suite -->
