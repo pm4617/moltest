@@ -66,6 +66,7 @@ public class WebElementImpl implements Element   {
 
 	public void sendKeys(CharSequence... keysToSend) {
 		// TODO Auto-generated method stub
+                Log.info("Inside");
 		if(element.isEnabled() && element.isDisplayed() ) {
 		element.sendKeys(keysToSend);
 		Log.info("sendKeys performed on " +  element.toString() + " , sent '" + keysToSend.toString()+ "'");

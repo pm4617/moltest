@@ -1,1 +1,45 @@
 
+2016-12-19 12:18:23,334 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:18:23,334 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@3d24753a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-19 12:18:23,334 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:18:23,334 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-19 12:18:29,084 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-19 12:18:29,084 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:18:29,084 INFO  [Log] 
+
+
+ 
+2016-12-19 12:20:30,898 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:20:30,898 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@880ec60       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-19 12:20:30,898 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:20:30,898 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-19 12:20:36,660 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-19 12:20:36,660 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:20:36,660 INFO  [Log] 
+
+
+ 
+2016-12-19 12:23:04,856 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:23:04,856 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@3d24753a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-19 12:23:04,856 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:23:04,856 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-19 12:23:10,731 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-19 12:23:10,731 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:23:10,731 INFO  [Log] 
+
+
+ 
+2016-12-19 12:24:02,145 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:24:02,145 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@6fadae5d       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-19 12:24:02,145 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:24:02,145 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-19 12:24:12,641 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = css,#lst-ib 
+2016-12-19 12:24:12,662 FATAL [Log] EXCEPTION in Looking Up Element : By.cssSelector: #lst-ib in Class WebElementImpl. Got java.lang.NullPointerException 
+2016-12-19 12:24:27,671 INFO  [Log] ***** Trying to find element again after 15 seconds... 
+2016-12-19 12:24:27,671 FATAL [Log] EXCEPTION in Looking Up Element Again: By.cssSelector: #lst-ib in Class WebElementImpl. Got java.lang.NullPointerException 
+2016-12-19 12:24:27,687 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-19 12:24:27,687 INFO  [Log] ************************************************************************************************************* 
+2016-12-19 12:24:27,687 INFO  [Log] 
+
+
+ 

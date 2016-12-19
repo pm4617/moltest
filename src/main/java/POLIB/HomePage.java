@@ -37,7 +37,7 @@ public class HomePage extends BasePage {
 		return classcodesrch;
 	}
 
-    private void initialize() {
+    public void initialize() {
                         try {
             this.HomeProp = new PropertyReader("src/main/java/config/HomePage.properties");
    
