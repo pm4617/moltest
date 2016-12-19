@@ -69,7 +69,9 @@ public class WebElementImpl implements Element   {
 		if(element.isEnabled() && element.isDisplayed() ) {
 		element.sendKeys(keysToSend);
 		Log.info("sendKeys performed on " +  element.toString() + " , sent '" + keysToSend.toString()+ "'");
-		}
+		} else {
+                Log.info("Element "  +  element.toString() + " is either not displayed or diabled.Can not perform send Keys");
+                } 
 	 
 	}
 
