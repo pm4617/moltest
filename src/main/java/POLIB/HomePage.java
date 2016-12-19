@@ -25,16 +25,9 @@ public class HomePage extends BasePage {
 	
 	public HomePage(WebDriver driver) {
 		super(driver);
-		this.driver = driver;
-                try {
-            this.HomeProp = new PropertyReader("src/main/java/config/HomePage.properties");
-            Lsearchtextbox = HomeProp.getByReference("Lclasscodesrch");
-         //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
-      
-        } catch (IOException ex) {
-            Log.fatal("EXCEPTION : In " + LoginPage.class.getName() + ". Got " + ex.toString());
-            ex.printStackTrace();
-        }
+                this.driver = driver;
+
+		initialize();
 	}
 	
 	public static WebElementImpl txtclasscodesrch() {
@@ -43,6 +36,19 @@ public class HomePage extends BasePage {
                 Log.info("Looked up txtclasscodesrch by locator " + Lclasscodesrch);
 		return classcodesrch;
 	}
+
+    private void initialize() {
+                        try {
+            this.HomeProp = new PropertyReader("src/main/java/config/HomePage.properties");
+   
+         //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
+         Lsearchtextbox = HomeProp.getByReference("Lclasscodesrch");    
+                        }
+         catch (IOException ex) {
+            Log.fatal("EXCEPTION : In " + LoginPage.class.getName() + ". Got " + ex.toString());
+            ex.printStackTrace();
+        }
+    }
 
 
 }

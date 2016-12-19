@@ -33,14 +33,7 @@ public class LoginPage extends BasePage {
         // searchtextbox1= driver.findElement(Lsearchtextbox);
         // searchtextbox1.click();
         // searchtextbox.click();
-        try {
-            this.LoginProp = new PropertyReader("src/main/java/config/LoginPage.properties");
-            Lsearchtextbox = LoginProp.getByReference("Lsearchtextbox");
-         //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
       
-        } catch (IOException ex) {
-            Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
-        }
         
     }
 
@@ -58,4 +51,15 @@ public class LoginPage extends BasePage {
         return searchtextbox;
     }
 
+    private void initialize() {
+  try {
+            this.LoginProp = new PropertyReader("src/main/java/config/LoginPage.properties");
+            Lsearchtextbox = LoginProp.getByReference("Lsearchtextbox");
+         //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
+      
+        } catch (IOException ex) {
+            Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+}
 }
