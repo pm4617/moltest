@@ -24,7 +24,7 @@ public class WebElementImpl implements Element   {
 	public WebElementImpl( final WebElement element){
 		this.element = element;
 	}
-
+// Constructor to initialize this class with BY parameter
     public WebElementImpl(By Lsearchtextbox) {
        // throw new UnsupportedOperationException("Not supported yet."); 
         this.element = findElement(Lsearchtextbox);

@@ -39,7 +39,7 @@ public class HomePage extends BasePage {
 	
 	public static WebElementImpl txtclasscodesrch() {
 		//classcodesrch = new WebElementImpl(driver.findElement(Lclasscodesrch));
-                     classcodesrch = new WebElementImpl(Lclasscodesrch);
+                classcodesrch = new WebElementImpl(Lclasscodesrch);
                 Log.info("Looked up txtclasscodesrch by locator " + Lclasscodesrch);
 		return classcodesrch;
 	}
