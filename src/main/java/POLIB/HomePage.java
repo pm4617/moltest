@@ -32,7 +32,8 @@ public class HomePage extends BasePage {
          //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
       
         } catch (IOException ex) {
-            Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
+            Log.fatal("EXCEPTION : In " + LoginPage.class.getName() + ". Got " + ex.toString());
+            ex.printStackTrace();
         }
 	}
 	
