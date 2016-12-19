@@ -24,6 +24,12 @@ public class WebElementImpl implements Element   {
 	public WebElementImpl( final WebElement element){
 		this.element = element;
 	}
+
+    public WebElementImpl(By Lsearchtextbox) {
+       // throw new UnsupportedOperationException("Not supported yet."); 
+        this.element = findElement(Lsearchtextbox);
+//To change body of generated methods, choose Tools | Templates.
+    }
 	
 	
  /* (non-Javadoc)
@@ -44,11 +50,11 @@ public class WebElementImpl implements Element   {
 
  public void click() {
 		// TODO Auto-generated method stub
-		if (element.isDisplayed())  
+		if (element.isDisplayed() &&  element.isEnabled())  
 		{
 		element.click();
 		
-		System.out.println(element.toString() + " is Clicked from the WebElementImpl");
+		Log.info(element.toString() + " is Clicked from the WebElementImpl");
 		}
 		
 	}
@@ -104,11 +110,35 @@ public class WebElementImpl implements Element   {
 
 	public WebElement findElement(By by) {
 		// TODO Auto-generated method stub
+                
+                try {
 		element.findElement(by);
-		Log.info("findElement performed on " +  element.toString() );
 		return findElement(by);
+                } catch (Exception e) {
+                Log.fatal("EXCEPTION in Looking Up Element : " + by.toString() + " in Class " +this.getClass().getSimpleName() + ". Got " +  e.toString());    
+              findElementAgain(by);
+                e.printStackTrace();
+                               }
+                Log.info("findElement performed on " +  element.toString() );
+                return findElement(by);
 		 
 	}
+        
+        public WebElement findElementAgain (By by) {
+             try {
+                Thread.sleep(15000);
+                Log.info("Trying to find element again after 15 seconds...");
+                 
+		element.findElement(by);
+		return findElement(by);
+                } catch (Exception e) {
+                Log.fatal("EXCEPTION in Looking Up Element Again: " + by.toString() + " in Class " +this.getClass().getSimpleName() + ". Got " +  e.toString());    
+                 e.printStackTrace();
+                               }
+                Log.info("When Tried again findElement performed on " +  element.toString() );
+                return findElement(by);
+            
+        }
 
 	public boolean isDisplayed() {
 		// TODO Auto-generated method stub
