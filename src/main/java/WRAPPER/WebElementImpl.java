@@ -15,6 +15,9 @@ import org.openqa.selenium.interactions.internal.Coordinates;
 
 import java.lang.annotation.*;
 import POLIB.*;
+import static POLIB.TestBaseSetup.driver;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 
 public class WebElementImpl implements Element   {
  
@@ -24,14 +27,15 @@ public class WebElementImpl implements Element   {
 	public WebElementImpl( final WebElement element){
 		this.element = element;
 	}
-// Constructor to initialize this class with BY parameter
+
     public WebElementImpl(By Lsearchtextbox) {
-       // throw new UnsupportedOperationException("Not supported yet."); 
-        this.element = findElement(Lsearchtextbox);
-//To change body of generated methods, choose Tools | Templates.
+       element = findElement(Lsearchtextbox);
     }
-	
-	
+
+   
+
+    
+  
  /* (non-Javadoc)
 	 * @see org.openqa.selenium.internal.Locatable#getCoordinates()
 	 */
@@ -66,6 +70,7 @@ public class WebElementImpl implements Element   {
 
 	public void sendKeys(CharSequence... keysToSend) {
 		// TODO Auto-generated method stub
+                flash(element);
                 Log.info("Inside");
 		if(element.isEnabled() && element.isDisplayed() ) {
 		element.sendKeys(keysToSend);
@@ -111,37 +116,15 @@ public class WebElementImpl implements Element   {
 		return null;
 	}
 
-	public WebElement findElement(By by) {
-		// TODO Auto-generated method stub
-                
-                try {
-		element.findElement(by);
-		return findElement(by);
-                } catch (Exception e) {
-                Log.fatal("EXCEPTION in Looking Up Element : " + by.toString() + " in Class " +this.getClass().getSimpleName() + ". Got " +  e.toString());    
-              findElementAgain(by);
-                e.printStackTrace();
-                               }
-                Log.info("findElement performed on " +  element.toString() );
-                return findElement(by);
-		 
-	}
+   /* public WebElement findElement(By by) {
+        // TODO Auto-generated method stub
+
+        //  Log.info("inside find element");
+        return null;
+
+    }
+     */   
         
-        public WebElement findElementAgain (By by) {
-             try {
-                Thread.sleep(15000);
-                Log.info("Trying to find element again after 15 seconds...");
-                 
-		element.findElement(by);
-		return findElement(by);
-                } catch (Exception e) {
-                Log.fatal("EXCEPTION in Looking Up Element Again: " + by.toString() + " in Class " +this.getClass().getSimpleName() + ". Got " +  e.toString());    
-                 e.printStackTrace();
-                               }
-                Log.info("When Tried again findElement performed on " +  element.toString() );
-                return findElement(by);
-            
-        }
 
 	public boolean isDisplayed() {
 		// TODO Auto-generated method stub
@@ -183,5 +166,29 @@ public class WebElementImpl implements Element   {
 		// TODO Auto-generated method stub
 		
 	}
+
+   
+    public WebElement findElement(By by) {
+     //   JavascriptExecutor jse = (JavascriptExecutor) driver;
+     //   jse.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(by));
+        
+        return driver.findElement(by) ;
+    }
+ public static void flash(WebElement element ) {
+        JavascriptExecutor js = ((JavascriptExecutor) driver);
+        String bgcolor  = element.getCssValue("backgroundColor");
+        for (int i = 0; i <  3; i++) {
+            changeColor("rgb(0,200,0)", element, js);
+            changeColor(bgcolor, element, js);
+        }
+    }
+    public static void changeColor(String color, WebElement element,  JavascriptExecutor js) {
+        js.executeScript("arguments[0].style.backgroundColor = '"+color+"'",  element);
+
+        try {
+            Thread.sleep(20);
+        }  catch (InterruptedException e) {
+        }
+     }
 
 }

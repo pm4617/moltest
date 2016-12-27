@@ -17,55 +17,19 @@ import org.testng.annotations.BeforeTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 
-public class NewTest {
+public class NewTest extends TestBaseSetup {
 
-    public static FirefoxDriver driver;
+    
     public LoginPage loginpage;
     public String URL;
 
     @Test
     public void f() {
-
+        loginpage = new LoginPage(driver);
         //LoginPage.txtuserid().click();
         //LoginPage.txtuserid().sendKeys("Markelonline.com");
         LoginPage.searchtextbox().sendKeys("Test");
-        LoginPage.login().txtclasscodesrch().sendKeys("test");
-
+        //LoginPage.login().txtclasscodesrch().sendKeys("test");
     }
 
-    /**
-     * ********************Before and AfterTest Methods*****************************
-     */
-    @BeforeTest
-    public void beforeTest() {
-  
-        DOMConfigurator.configure("log4j.xml");
-              // Start printing the logs and printing the Test Case name
-        Log.startTestCase(this.toString());
-        try {
-            PropertyReader pr = new PropertyReader("src/main/java/config/molconfig.properties");
-            URL = pr.getProperty("uwurl");
-
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            Log.fatal("Exception" + e.toString() + " in class " +this.getClass().getName());
-        }
-
-        driver = new FirefoxDriver();
-        driver.get(URL);
-        loginpage = new LoginPage(driver);
-    }
-
-    @AfterMethod
-    public void afterMethod() {
-        // Printing beautiful logs to end the test case
-        Log.endTestCase(this.toString());
-        // Closing the opened driver
-        driver.close();
-    }
-
-    /**
-     * ********************Before and AfterTest Methods*****************************
-     */
 }

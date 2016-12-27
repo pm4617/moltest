@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SmokeSuite" parallel="false">
        <listeners>
-              <listener class-name="MYUTILS.Listener"></listener>
+              <listener class-name="MYUTILS.Listener" />
+                <listener class-name="MYUTILS.Listeners" />
        </listeners>  
   <test name="Regression1">
     <classes>

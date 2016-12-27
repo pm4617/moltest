@@ -31,13 +31,13 @@ public class HomePage extends BasePage {
 	}
 	
 	public static WebElementImpl txtclasscodesrch() {
-		//classcodesrch = new WebElementImpl(driver.findElement(Lclasscodesrch));
-                classcodesrch = new WebElementImpl(Lclasscodesrch);
+		 classcodesrch = new WebElementImpl(driver.findElement(Lclasscodesrch));
+                //classcodesrch = new WebElementImpl(Lclasscodesrch);
                 Log.info("Looked up txtclasscodesrch by locator " + Lclasscodesrch);
 		return classcodesrch;
 	}
 
-    public void initialize() {
+    private void initialize() {
                         try {
             this.HomeProp = new PropertyReader("src/main/java/config/HomePage.properties");
    

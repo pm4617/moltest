@@ -1,45 +1,112 @@
-
-2016-12-19 12:18:23,334 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:18:23,334 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@3d24753a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-19 12:18:23,334 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:18:23,334 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-19 12:18:29,084 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-19 12:18:29,084 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:18:29,084 INFO  [Log] 
-
-
- 
-2016-12-19 12:20:30,898 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:20:30,898 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@880ec60       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-19 12:20:30,898 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:20:30,898 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-19 12:20:36,660 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-19 12:20:36,660 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:20:36,660 INFO  [Log] 
+2016-12-28 01:07:58,368 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:07:58,368 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:07:58,368 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:07:58,368 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:08:08,872 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:08:08,873 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:08:08,876 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:08:09,145 INFO  [Log] ***** Inside 
+2016-12-28 01:08:09,249 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (84bb12ba-f299-4e3c-8ed0-c7bc3184049d)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
+2016-12-28 01:08:09,251 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:08:09,251 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:08:09,251 INFO  [Log] 
 
 
  
-2016-12-19 12:23:04,856 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:23:04,856 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@3d24753a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-19 12:23:04,856 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:23:04,856 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-19 12:23:10,731 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-19 12:23:10,731 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:23:10,731 INFO  [Log] 
+2016-12-28 01:08:41,214 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:08:41,214 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:08:41,214 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:08:41,214 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:08:49,493 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:08:49,493 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:08:49,496 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:08:49,755 INFO  [Log] ***** Inside 
+2016-12-28 01:08:49,871 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (5778a183-9ded-4ab2-a603-9895b08ac928)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
+2016-12-28 01:08:49,872 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:08:49,872 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:08:49,872 INFO  [Log] 
 
 
  
-2016-12-19 12:24:02,145 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:24:02,145 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@6fadae5d       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-19 12:24:02,145 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:24:02,145 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-19 12:24:12,641 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = css,#lst-ib 
-2016-12-19 12:24:12,662 FATAL [Log] EXCEPTION in Looking Up Element : By.cssSelector: #lst-ib in Class WebElementImpl. Got java.lang.NullPointerException 
-2016-12-19 12:24:27,671 INFO  [Log] ***** Trying to find element again after 15 seconds... 
-2016-12-19 12:24:27,671 FATAL [Log] EXCEPTION in Looking Up Element Again: By.cssSelector: #lst-ib in Class WebElementImpl. Got java.lang.NullPointerException 
-2016-12-19 12:24:27,687 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-19 12:24:27,687 INFO  [Log] ************************************************************************************************************* 
-2016-12-19 12:24:27,687 INFO  [Log] 
+2016-12-28 01:15:27,615 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:15:27,616 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:15:27,616 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:15:27,618 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:15:35,845 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:15:35,846 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:15:35,849 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:15:36,136 INFO  [Log] ***** Inside 
+2016-12-28 01:15:36,240 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (efc5d9f8-6398-4d73-ae37-8e23c70387e9)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@25084a1e' 
+2016-12-28 01:15:36,240 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:15:36,240 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:15:36,240 INFO  [Log] 
+
+
+ 
+2016-12-28 01:16:43,113 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:16:43,114 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@6b67034       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:16:43,115 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:16:43,118 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:16:53,329 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:16:53,329 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:16:54,804 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:22:09,255 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:09,255 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:22:09,255 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:09,255 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:22:17,494 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:22:17,494 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:22:17,498 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:22:17,988 INFO  [Log] ***** Inside 
+2016-12-28 01:22:18,093 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (3a442c35-5631-43fa-8aaf-21c6cd6638c4)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
+2016-12-28 01:22:18,094 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:22:18,094 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:18,094 INFO  [Log] 
+
+
+ 
+2016-12-28 01:22:28,221 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:28,221 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@7f63425a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:22:28,221 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:28,221 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:22:36,199 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:22:36,199 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:22:36,202 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:22:36,691 INFO  [Log] ***** Inside 
+2016-12-28 01:22:36,809 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (1cb549d4-71ec-4a04-95d8-de5a1dcadf98)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@156b88f5' 
+2016-12-28 01:22:36,810 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:22:36,810 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:22:36,810 INFO  [Log] 
+
+
+ 
+2016-12-28 01:23:41,536 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:23:41,536 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:23:41,536 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:23:41,552 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:23:50,324 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:23:50,324 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:23:50,328 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:23:50,903 INFO  [Log] ***** Inside 
+2016-12-28 01:23:51,022 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (d17cc355-5f69-4ea8-8488-06da8a136a7a)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
+2016-12-28 01:23:51,022 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:23:51,022 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:23:51,022 INFO  [Log] 
+
+
+ 
+2016-12-28 01:25:04,802 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:25:04,802 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-28 01:25:04,803 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:25:04,804 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2016-12-28 01:25:12,309 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2016-12-28 01:25:12,309 INFO  [Log] ***** >>>id >>>lst-ib 
+2016-12-28 01:25:12,312 INFO  [Log] ***** >>>By.id: lst-ib 
+2016-12-28 01:25:12,793 INFO  [Log] ***** Inside 
+2016-12-28 01:25:12,892 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (ed8695dd-891a-4cc4-8cbf-418cdd3e5cc5)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@f736069' 
+2016-12-28 01:25:12,893 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-28 01:25:12,893 INFO  [Log] ************************************************************************************************************* 
+2016-12-28 01:25:12,893 INFO  [Log] 
 
 
  

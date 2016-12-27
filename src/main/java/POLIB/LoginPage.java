@@ -14,9 +14,9 @@ public class LoginPage extends BasePage {
 
     // @FindBy(how=How.CSS, using="#lst-ib")
     public static WebElementImpl searchtextbox;
-    public static WebElement searchtextbox1;
+   	public static WebDriver driver;
 
-    public static WebDriver driver;
+ 
 
     static By Lsearchtextbox;
     //static By Lsearchtextbox = By.cssSelector("#lst-ib");
@@ -44,14 +44,15 @@ public class LoginPage extends BasePage {
     }
 
     public static WebElementImpl searchtextbox() {
-        //searchtextbox = new WebElementImpl(driver.findElement(Lsearchtextbox));
         
-        searchtextbox = new WebElementImpl(Lsearchtextbox);
-        Log.info("Looked up searchtextbox by locator " + Lsearchtextbox);
+        Log.info(">>>"+ Lsearchtextbox.toString());
+       // searchtextbox = new WebElementImpl(driver.findElement(By.id("lst-ib")));
+    searchtextbox = new WebElementImpl(Lsearchtextbox);
+       // Log.info("Looked up searchtextbox by locator " + Lsearchtextbox);
         return searchtextbox;
     }
 
-    public void initialize() {
+    private void initialize() {
   try {
             this.LoginProp = new PropertyReader("src/main/java/config/LoginPage.properties");
             Lsearchtextbox = LoginProp.getByReference("Lsearchtextbox");
@@ -62,4 +63,8 @@ public class LoginPage extends BasePage {
         }
 
 }
+    
+    
+    
+    
 }

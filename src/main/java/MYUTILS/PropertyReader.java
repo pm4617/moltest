@@ -32,20 +32,23 @@ public class PropertyReader {
              Loc = this.getProperty(Loc);
              String one = Loc.substring(Loc.indexOf(",")+1);
              String two = Loc.substring(0, Loc.indexOf(","));
-                  
+                  Log.info(">>>" +two+" >>>" + one);
              switch (two.toLowerCase()) {
                            
                  case "css" :
-                     return By.cssSelector(one);
-                   
-                     
+                     by = By.cssSelector(one);
+                   break;
+                
                  case "id" :
-                     return By.id(one);
-                       
-                     case "xpath" :
-                     return By.xpath(one);
                      
-                 default : 
+                     by =  By.id(one);
+                      break;
+                  
+                 case "xpath" :
+                     by = By.xpath(one);
+                   break;
+                 
+                     default : 
                      break; 
     
              }
