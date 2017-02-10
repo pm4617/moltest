@@ -16,13 +16,17 @@ import org.openqa.selenium.interactions.internal.Coordinates;
 import java.lang.annotation.*;
 import POLIB.*;
 import static POLIB.TestBaseSetup.driver;
+import com.thoughtworks.selenium.Wait;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebElementImpl implements Element   {
  
 	public  final WebElement element;
-
+WebDriverWait wait = new WebDriverWait(driver,30);
  	
 	public WebElementImpl( final WebElement element){
 		this.element = element;
@@ -57,7 +61,6 @@ public class WebElementImpl implements Element   {
 		if (element.isDisplayed() &&  element.isEnabled())  
 		{
 		element.click();
-		
 		Log.info(element.toString() + " is Clicked from the WebElementImpl");
 		}
 		
@@ -171,8 +174,9 @@ public class WebElementImpl implements Element   {
     public WebElement findElement(By by) {
      //   JavascriptExecutor jse = (JavascriptExecutor) driver;
      //   jse.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(by));
-        
-        return driver.findElement(by) ;
+       
+       wait.until(ExpectedConditions.presenceOfElementLocated(by));
+       return driver.findElement(by) ;
     }
  public static void flash(WebElement element ) {
         JavascriptExecutor js = ((JavascriptExecutor) driver);

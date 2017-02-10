@@ -15,9 +15,9 @@ import org.openqa.selenium.WebElement;
  
 
 public class HomePage extends BasePage {
-	public static WebElementImpl classcodesrch;
+	public static WebElementImpl classcodesrch,signinbutton,email;
 
-	static By Lclasscodesrch ;
+	static By Lclasscodesrch , Lsigninbutton,Lemail;
                 //= By.cssSelector("#lst-ib");
 	
 	public static WebDriver driver;
@@ -36,14 +36,33 @@ public class HomePage extends BasePage {
                 Log.info("Looked up txtclasscodesrch by locator " + Lclasscodesrch);
 		return classcodesrch;
 	}
+        
+        
+        public static WebElementImpl signinbutton() {
+		 signinbutton = new WebElementImpl(Lsigninbutton);
+                //classcodesrch = new WebElementImpl(Lclasscodesrch);
+                Log.info("Looked up Lsigninbutton by locator " + Lsigninbutton);
+		return signinbutton;
+	}
+        
+             public static WebElementImpl email() {
+		 email = new WebElementImpl(Lemail);
+                //classcodesrch = new WebElementImpl(Lclasscodesrch);
+                Log.info("Looked up Lemail by locator " + Lemail);
+		return email;
+	}
+
 
     private void initialize() {
                         try {
             this.HomeProp = new PropertyReader("src/main/java/config/HomePage.properties");
    
          //   Lsearchtextbox = LoginProp.getProperty("Lsearchtextbox");
-         Lsearchtextbox = HomeProp.getByReference("Lclasscodesrch");    
+         Lsearchtextbox = HomeProp.getByReference("Lclasscodesrch");   
+         Lsigninbutton = HomeProp.getByReference("Lsigninbutton");
+         Lemail = HomeProp.getByReference("Lemail");
                         }
+                        
          catch (IOException ex) {
             Log.fatal("EXCEPTION : In " + LoginPage.class.getName() + ". Got " + ex.toString());
             ex.printStackTrace();

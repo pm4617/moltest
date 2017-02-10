@@ -1,112 +1,282 @@
-2016-12-28 01:07:58,368 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:07:58,368 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:07:58,368 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:07:58,368 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:08:08,872 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:08:08,873 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:08:08,876 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:08:09,145 INFO  [Log] ***** Inside 
-2016-12-28 01:08:09,249 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (84bb12ba-f299-4e3c-8ed0-c7bc3184049d)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
-2016-12-28 01:08:09,251 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:08:09,251 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:08:09,251 INFO  [Log] 
+2017-02-10 09:54:13,614 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:54:13,614 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 09:54:13,614 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:54:13,630 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 09:54:40,815 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:54:40,815 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 09:54:40,815 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:54:40,815 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 09:54:49,136 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 09:54:49,136 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 09:54:49,140 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 09:54:49,141 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 09:54:49,142 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 09:54:49,142 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 09:54:49,142 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 09:54:49,142 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 09:54:49,142 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 09:54:49,323 INFO  [Log] ***** Looked up Lsigninbutton by locator By.id: gb_70 
+2017-02-10 09:54:50,795 INFO  [Log] ***** [[FirefoxDriver: firefox on WINDOWS (12ab67c8-fe6e-473f-9b20-f13ed6ecac8b)] -> id: gb_70] is Clicked from the WebElementImpl 
+2017-02-10 09:54:50,817 INFO  [Log] ***** Looked up Lemail by locator By.id: Email 
+2017-02-10 09:54:51,033 INFO  [Log] ***** Inside 
+2017-02-10 09:54:51,128 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (12ab67c8-fe6e-473f-9b20-f13ed6ecac8b)] -> id: Email] , sent '[Ljava.lang.CharSequence;@5ba3f27a' 
+2017-02-10 09:54:51,129 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 09:54:51,129 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:54:51,129 INFO  [Log] 
 
 
  
-2016-12-28 01:08:41,214 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:08:41,214 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:08:41,214 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:08:41,214 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:08:49,493 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:08:49,493 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:08:49,496 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:08:49,755 INFO  [Log] ***** Inside 
-2016-12-28 01:08:49,871 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (5778a183-9ded-4ab2-a603-9895b08ac928)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
-2016-12-28 01:08:49,872 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:08:49,872 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:08:49,872 INFO  [Log] 
+2017-02-10 09:55:37,565 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:55:37,565 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 09:55:37,565 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:55:37,565 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 09:57:49,601 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:57:49,601 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@3c0a50da       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 09:57:49,601 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 09:57:49,601 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:00:05,677 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:00:05,677 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 10:00:05,677 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:00:05,677 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:06:56,045 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:06:56,046 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 10:06:56,046 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:06:56,049 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:07:05,590 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:07:05,590 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:05,594 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:07:05,595 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:07:05,595 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:05,595 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:07:05,595 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:07:05,595 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:07:05,595 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:07:05,661 INFO  [Log] ***** Looked up Lsigninbutton by locator By.id: gb_70 
+2017-02-10 10:07:05,774 INFO  [Log] ***** [[FirefoxDriver: firefox on WINDOWS (d6aec143-13bd-4802-bbc4-07b435036d4a)] -> id: gb_70] is Clicked from the WebElementImpl 
+2017-02-10 10:07:07,050 INFO  [Log] ***** Looked up Lemail by locator By.id: Email 
+2017-02-10 10:07:07,258 INFO  [Log] ***** Inside 
+2017-02-10 10:07:07,345 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (d6aec143-13bd-4802-bbc4-07b435036d4a)] -> id: Email] , sent '[Ljava.lang.CharSequence;@14a50707' 
+2017-02-10 10:07:07,346 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:07:07,346 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:07:07,346 INFO  [Log] 
 
 
  
-2016-12-28 01:15:27,615 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:15:27,616 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:15:27,616 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:15:27,618 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:15:35,845 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:15:35,846 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:15:35,849 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:15:36,136 INFO  [Log] ***** Inside 
-2016-12-28 01:15:36,240 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (efc5d9f8-6398-4d73-ae37-8e23c70387e9)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@25084a1e' 
-2016-12-28 01:15:36,240 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:15:36,240 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:15:36,240 INFO  [Log] 
+2017-02-10 10:07:07,347 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:07:07,347 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:07,347 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:07:07,348 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:07:07,348 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:07,348 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:07:07,348 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:07:07,348 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:07:07,348 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:07:37,752 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:07:37,752 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:07:37,752 INFO  [Log] 
 
 
  
-2016-12-28 01:16:43,113 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:16:43,114 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@6b67034       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:16:43,115 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:16:43,118 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:16:53,329 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:16:53,329 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:16:54,804 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:22:09,255 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:09,255 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:22:09,255 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:09,255 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:22:17,494 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:22:17,494 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:22:17,498 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:22:17,988 INFO  [Log] ***** Inside 
-2016-12-28 01:22:18,093 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (3a442c35-5631-43fa-8aaf-21c6cd6638c4)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
-2016-12-28 01:22:18,094 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:22:18,094 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:18,094 INFO  [Log] 
+2017-02-10 10:07:37,752 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:07:37,752 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:37,752 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:07:37,752 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:07:37,752 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:07:37,752 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:07:37,752 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:07:37,752 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:07:37,752 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:03,943 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:03,943 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:03,943 INFO  [Log] 
 
 
  
-2016-12-28 01:22:28,221 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:28,221 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@7f63425a       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:22:28,221 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:28,221 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:22:36,199 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:22:36,199 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:22:36,202 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:22:36,691 INFO  [Log] ***** Inside 
-2016-12-28 01:22:36,809 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (1cb549d4-71ec-4a04-95d8-de5a1dcadf98)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@156b88f5' 
-2016-12-28 01:22:36,810 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:22:36,810 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:22:36,810 INFO  [Log] 
+2017-02-10 10:08:03,943 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:08:03,943 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:03,943 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:08:03,943 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:08:03,943 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:03,943 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:08:03,943 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:08:03,943 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:08:03,943 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:04,725 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:04,725 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@506e6d5e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 10:08:04,725 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:04,725 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:08:04,975 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:04,975 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:04,975 INFO  [Log] 
 
 
  
-2016-12-28 01:23:41,536 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:23:41,536 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@340f438e       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:23:41,536 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:23:41,552 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:23:50,324 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:23:50,324 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:23:50,328 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:23:50,903 INFO  [Log] ***** Inside 
-2016-12-28 01:23:51,022 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (d17cc355-5f69-4ea8-8488-06da8a136a7a)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@383bfa16' 
-2016-12-28 01:23:51,022 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:23:51,022 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:23:51,022 INFO  [Log] 
+2017-02-10 10:08:14,424 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:08:14,424 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:14,428 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:08:14,429 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:08:14,429 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:14,429 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:08:14,429 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:08:14,429 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:08:14,429 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:14,496 INFO  [Log] ***** Looked up Lsigninbutton by locator By.id: gb_70 
+2017-02-10 10:08:14,605 INFO  [Log] ***** [[FirefoxDriver: firefox on WINDOWS (daa59abc-65ae-450b-b73b-76283a79eebb)] -> id: gb_70] is Clicked from the WebElementImpl 
+2017-02-10 10:08:15,964 INFO  [Log] ***** Looked up Lemail by locator By.id: Email 
+2017-02-10 10:08:16,215 INFO  [Log] ***** Inside 
+2017-02-10 10:08:16,307 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (daa59abc-65ae-450b-b73b-76283a79eebb)] -> id: Email] , sent '[Ljava.lang.CharSequence;@14a50707' 
+2017-02-10 10:08:16,307 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:16,307 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:16,307 INFO  [Log] 
 
 
  
-2016-12-28 01:25:04,802 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:25:04,802 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@59a6e353       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-12-28 01:25:04,803 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:25:04,804 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
-2016-12-28 01:25:12,309 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
-2016-12-28 01:25:12,309 INFO  [Log] ***** >>>id >>>lst-ib 
-2016-12-28 01:25:12,312 INFO  [Log] ***** >>>By.id: lst-ib 
-2016-12-28 01:25:12,793 INFO  [Log] ***** Inside 
-2016-12-28 01:25:12,892 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (ed8695dd-891a-4cc4-8cbf-418cdd3e5cc5)] -> id: lst-ib] , sent '[Ljava.lang.CharSequence;@f736069' 
-2016-12-28 01:25:12,893 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-12-28 01:25:12,893 INFO  [Log] ************************************************************************************************************* 
-2016-12-28 01:25:12,893 INFO  [Log] 
+2017-02-10 10:08:16,308 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:08:16,308 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:16,308 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:08:16,308 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:08:16,308 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:16,308 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:08:16,308 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:08:16,309 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:08:16,309 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:30,251 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:30,251 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:30,251 INFO  [Log] 
 
 
  
+2017-02-10 10:08:30,251 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:08:30,251 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:30,251 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:08:30,251 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:08:30,251 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:30,251 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:08:30,251 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:08:30,251 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:08:30,251 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:31,267 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:31,267 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:31,267 INFO  [Log] 
+
+
+ 
+2017-02-10 10:08:31,267 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:08:31,267 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:31,267 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:08:31,267 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:08:31,267 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:08:31,267 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:08:31,267 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:08:31,267 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:08:31,267 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:08:32,314 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:08:32,314 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:08:32,314 INFO  [Log] 
+
+
+ 
+2017-02-10 10:10:19,427 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:10:19,427 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@6108b2d7       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 10:10:19,427 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:10:19,427 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:10:28,207 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:10:28,207 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:10:28,210 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:10:28,211 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:10:28,211 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:10:28,211 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:10:28,211 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:10:28,211 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:10:28,211 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:10:28,277 INFO  [Log] ***** Looked up Lsigninbutton by locator By.id: gb_70 
+2017-02-10 10:10:29,601 INFO  [Log] ***** [[FirefoxDriver: firefox on WINDOWS (3476b06c-3d63-4edf-9ba1-5f344a58f9b7)] -> id: gb_70] is Clicked from the WebElementImpl 
+2017-02-10 10:10:29,628 INFO  [Log] ***** Looked up Lemail by locator By.id: Email 
+2017-02-10 10:10:29,824 INFO  [Log] ***** Inside 
+2017-02-10 10:10:29,896 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (3476b06c-3d63-4edf-9ba1-5f344a58f9b7)] -> id: Email] , sent '[Ljava.lang.CharSequence;@2fba3fc4' 
+2017-02-10 10:10:29,898 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:10:29,898 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:10:29,898 INFO  [Log] 
+
+
+ 
+2017-02-10 10:10:29,899 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:10:29,899 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:10:29,899 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:10:29,899 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:10:29,899 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:10:29,899 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:10:29,899 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:10:29,899 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:10:29,899 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:11:00,300 ERROR [Log] ***** Error f test has failed ***** 
+2017-02-10 10:11:00,488 INFO  [Log] ***** ***Placed screen shot in C:\tests\testclass *** 
+2017-02-10 10:11:00,503 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:11:00,503 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:11:00,503 INFO  [Log] 
+
+
+ 
+2017-02-10 10:11:00,503 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:11:00,503 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:11:00,503 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:11:00,503 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:11:00,503 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:11:00,503 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:11:00,503 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:11:00,503 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:11:00,503 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:11:30,615 ERROR [Log] ***** Error f test has failed ***** 
+2017-02-10 10:11:30,693 INFO  [Log] ***** ***Placed screen shot in C:\tests\testclass *** 
+2017-02-10 10:11:30,693 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:11:30,693 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:11:30,693 INFO  [Log] 
+
+
+ 
+2017-02-10 10:11:30,693 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:11:30,693 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:11:30,693 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:11:30,693 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:11:30,693 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:11:30,693 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:11:30,693 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:11:30,693 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:11:30,693 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:11:44,705 ERROR [Log] ***** Error f test has failed ***** 
+2017-02-10 10:11:45,736 ERROR [Log] ***** Error f test has failed ***** 
+2017-02-10 10:11:54,529 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:11:54,529 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@7f690630       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-10 10:11:54,529 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:11:54,529 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-10 10:12:03,866 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:12:03,866 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:12:03,869 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:12:03,870 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:12:03,870 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:12:03,870 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:12:03,870 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:12:03,870 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:12:03,871 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:12:03,934 INFO  [Log] ***** Looked up Lsigninbutton by locator By.id: gb_70 
+2017-02-10 10:12:04,043 INFO  [Log] ***** [[FirefoxDriver: firefox on WINDOWS (6dc5e6d7-a8e0-47de-85bf-05ba394780bb)] -> id: gb_70] is Clicked from the WebElementImpl 
+2017-02-10 10:12:05,491 INFO  [Log] ***** Looked up Lemail by locator By.id: Email 
+2017-02-10 10:12:05,702 INFO  [Log] ***** Inside 
+2017-02-10 10:12:05,814 INFO  [Log] ***** sendKeys performed on [[FirefoxDriver: firefox on WINDOWS (6dc5e6d7-a8e0-47de-85bf-05ba394780bb)] -> id: Email] , sent '[Ljava.lang.CharSequence;@2b72cb8a' 
+2017-02-10 10:12:05,815 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-10 10:12:05,816 INFO  [Log] ************************************************************************************************************* 
+2017-02-10 10:12:05,816 INFO  [Log] 
+
+
+ 
+2017-02-10 10:12:05,827 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-10 10:12:05,827 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:12:05,827 INFO  [Log] ***** Inside login method , Navigating to Home page after login 
+2017-02-10 10:12:05,827 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-10 10:12:05,827 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-10 10:12:05,827 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-10 10:12:05,827 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-10 10:12:05,827 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-10 10:12:05,828 INFO  [Log] ***** >>>id >>>Email 
+2017-02-10 10:12:08,078 ERROR [Log] ***** Error f test has failed ***** 
+2017-02-10 10:12:09,094 ERROR [Log] ***** Error f test has failed ***** 

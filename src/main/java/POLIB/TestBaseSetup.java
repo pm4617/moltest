@@ -93,7 +93,7 @@ public class TestBaseSetup {
         // Printing beautiful logs to end the test case
         Log.endTestCase(this.toString());
         // Closing the opened driver
-       // driver.close();
+        driver.close();
     }
 
 }
