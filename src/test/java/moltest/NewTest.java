@@ -33,15 +33,15 @@ public class NewTest extends TestBaseSetup {
     @Test (dataProvider="googleSearchData")
         public void f(GoogleSearchData data) {
         loginpage = new LoginPage(driver);
-        //homepage = new HomePage(driver);
+        homepage = new HomePage(driver);
         //LoginPage.txtuserid().click();
-        //LoginPage.txtuserid().sendKeys("Markelonline.com");
-        
-       homepage=  loginpage.login();
        
-        homepage.signinbutton().click();
-        System.out.println(              data.toString());
-        HomePage.email().sendKeys(data.email);
+        
+       //homepage=  loginpage.login();
+       loginpage.searchtextbox().click();
+       homepage.signinbutton().click();
+       System.out.println(data.email);
+        homepage.email().sendKeys(data.email);
         
         //LoginPage.searchtextbox().sendKeys("Test");
         //LoginPage.login().txtclasscodesrch().sendKeys("test");

@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import POLIB.*;
+import org.testng.annotations.BeforeMethod;
 /**
  *
  * @author MY PC
@@ -23,7 +24,7 @@ public class TestBaseSetup {
 
 	public static WebDriver driver;
 	static String driverPath = "D:\\chromedriver\\" ;
-
+    public String URL = "no such page";
 	public static WebDriver getDriver() {
 		return driver;
 	}
@@ -70,7 +71,7 @@ public class TestBaseSetup {
         
         @BeforeTest
     public void beforeTest() {
-    String URL = "no such page";
+ 
         DOMConfigurator.configure("log4j.xml");
               // Start printing the logs and printing the Test Case name
         Log.startTestCase(this.toString());
@@ -83,17 +84,31 @@ public class TestBaseSetup {
             e.printStackTrace();
             Log.fatal("Exception" + e.toString() + " in class " +this.getClass().getName());
         }
+        
+           System.out.println("In before TEST method");
 
-        driver = new FirefoxDriver();
-        driver.get(URL);
+  
     }
 
+    @BeforeMethod
+    public void beforeMethod()
+    {
+            driver = new FirefoxDriver();
+            driver.get(URL);
+            System.out.println(" In Before Method ");
+    }
+    
+    
+    
     @AfterMethod
     public void afterMethod() {
         // Printing beautiful logs to end the test case
         Log.endTestCase(this.toString());
-        // Closing the opened driver
+        System.out.println(" In AfterMethod ");
         driver.close();
+        
+        // Closing the opened driver
+        //driver.close();
     }
 
 }
