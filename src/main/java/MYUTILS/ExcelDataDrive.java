@@ -15,11 +15,27 @@ public class ExcelDataDrive extends BaseDataDrive{
     
     
 	ExcelReader excelReader = null;
-	public ExcelDataDrive(String filePath){
-		this(new File(filePath));		
+        File f ;
+                 
+        public ExcelDataDrive(String filePath){
+            
+//System.out.println("Test");
+
+            
+              this(getFile(filePath));
+               
+                
+               
+                
 	}
+        
+        public static File getFile(String path) {
+            System.out.println("In Get File");
+            return new File(path);
+        }
 	
 	public ExcelDataDrive(File file){
+            //super();
 		try {
 			excelReader = new ExcelReader(file);
 		} catch (IOException e) {

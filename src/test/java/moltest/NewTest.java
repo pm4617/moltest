@@ -35,13 +35,11 @@ public class NewTest extends TestBaseSetup {
         loginpage = new LoginPage(driver);
         homepage = new HomePage(driver);
         //LoginPage.txtuserid().click();
-       
-        
-       //homepage=  loginpage.login();
+        //homepage=  loginpage.login();
        loginpage.searchtextbox().click();
        homepage.signinbutton().click();
        System.out.println(data.email);
-        homepage.email().sendKeys(data.email);
+       homepage.email().sendKeys(data.email);
         
         //LoginPage.searchtextbox().sendKeys("Test");
         //LoginPage.login().txtclasscodesrch().sendKeys("test");
