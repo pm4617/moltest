@@ -1250,3 +1250,64 @@
 2017-02-13 11:36:22,019 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@646be2c3       $$$$$$$$$$$$$$$$$$$$$$$$$ 
 2017-02-13 11:36:22,019 INFO  [Log] ************************************************************************************************************* 
 2017-02-13 11:36:22,019 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-14 11:07:57,492 INFO  [Log] ************************************************************************************************************* 
+2017-02-14 11:07:57,492 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@473b46c3       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-14 11:07:57,492 INFO  [Log] ************************************************************************************************************* 
+2017-02-14 11:07:57,508 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-14 11:30:39,255 INFO  [Log] ************************************************************************************************************* 
+2017-02-14 11:30:39,256 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@646be2c3       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-02-14 11:30:39,256 INFO  [Log] ************************************************************************************************************* 
+2017-02-14 11:30:39,259 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-02-14 11:31:22,458 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-02-14 11:31:22,458 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-14 11:31:22,492 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-02-14 11:31:22,493 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-02-14 11:31:22,493 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-02-14 11:31:22,493 INFO  [Log] ***** >>>id >>>gb_70 
+2017-02-14 11:31:22,493 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-02-14 11:31:22,493 INFO  [Log] ***** >>>id >>>Email 
+2017-02-14 11:31:22,493 INFO  [Log] ***** >>>By.id: lst-ib 
+2017-02-14 11:31:53,007 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-02-14 11:31:53,007 INFO  [Log] ************************************************************************************************************* 
+2017-02-14 11:31:53,007 INFO  [Log] 
+
+
+ 
+2017-04-23 12:40:59,003 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:40:59,003 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@2d6e8792       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-04-23 12:40:59,003 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:40:59,034 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 
+2017-04-23 12:41:13,073 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-04-23 12:41:13,073 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-04-23 12:41:13,100 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-04-23 12:41:13,100 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-04-23 12:41:13,100 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-04-23 12:41:13,101 INFO  [Log] ***** >>>id >>>gb_70 
+2017-04-23 12:41:13,101 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-04-23 12:41:13,101 INFO  [Log] ***** >>>id >>>Email 
+2017-04-23 12:41:13,101 INFO  [Log] ***** >>>By.id: lst-ib 
+2017-04-23 12:41:43,275 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-04-23 12:41:43,275 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:41:43,275 INFO  [Log] 
+
+
+ 
+2017-04-23 12:41:48,905 INFO  [Log] ***** Getting Property value of Lsearchtextbox from file src/main/java/config/LoginPage.properties = id,lst-ib 
+2017-04-23 12:41:48,905 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-04-23 12:41:48,906 INFO  [Log] ***** Getting Property value of Lclasscodesrch from file src/main/java/config/HomePage.properties = id,lst-ib 
+2017-04-23 12:41:48,906 INFO  [Log] ***** >>>id >>>lst-ib 
+2017-04-23 12:41:48,906 INFO  [Log] ***** Getting Property value of Lsigninbutton from file src/main/java/config/HomePage.properties = id,gb_70 
+2017-04-23 12:41:48,906 INFO  [Log] ***** >>>id >>>gb_70 
+2017-04-23 12:41:48,906 INFO  [Log] ***** Getting Property value of Lemail from file src/main/java/config/HomePage.properties = id,Email 
+2017-04-23 12:41:48,906 INFO  [Log] ***** >>>id >>>Email 
+2017-04-23 12:41:48,906 INFO  [Log] ***** >>>By.id: lst-ib 
+2017-04-23 12:41:57,823 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-04-23 12:41:57,823 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:41:57,823 INFO  [Log] 
+
+
+ 
+2017-04-23 12:42:17,500 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:42:17,500 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 moltest.NewTest@2d6e8792       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-04-23 12:42:17,500 INFO  [Log] ************************************************************************************************************* 
+2017-04-23 12:42:17,500 INFO  [Log] ***** Getting Property value of uwurl from file src/main/java/config/molconfig.properties = http://www.google.com 

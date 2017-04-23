@@ -32,6 +32,7 @@ public class NewTest extends TestBaseSetup {
 
     @Test (dataProvider="googleSearchData")
         public void f(GoogleSearchData data) {
+  
         loginpage = new LoginPage(driver);
         homepage = new HomePage(driver);
         //LoginPage.txtuserid().click();
@@ -40,10 +41,18 @@ public class NewTest extends TestBaseSetup {
        homepage.signinbutton().click();
        System.out.println(data.email);
        homepage.email().sendKeys(data.email);
-        
+     
         //LoginPage.searchtextbox().sendKeys("Test");
         //LoginPage.login().txtclasscodesrch().sendKeys("test");
     }
+    
+ 
+    @DataProvider(name="mm")
+    public Object[][] mm() throws ClassParserException, DataNotAvailableException {
+            ExcelDataDrive excelData = new ExcelDataDrive("src/test/resources/datadrive/GoogleSearchData.xls");
+		return excelData.getTestngData(GoogleSearchData.class);
+    }
+    
     
     @DataProvider(name="googleSearchData")
     public Object[][] googleSearchData() throws ClassParserException, DataNotAvailableException {
