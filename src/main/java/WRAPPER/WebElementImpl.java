@@ -26,7 +26,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WebElementImpl implements Element   {
  
 	public  final WebElement element;
-WebDriverWait wait = new WebDriverWait(driver,30);
+        WebDriverWait wait = new WebDriverWait(driver,30);
  	
 	public WebElementImpl( final WebElement element){
 		this.element = element;
@@ -62,6 +62,7 @@ WebDriverWait wait = new WebDriverWait(driver,30);
 		{
 		element.click();
 		Log.info(element.toString() + " is Clicked from the WebElementImpl");
+               //        flash(element);
 		}
 		
 	}
@@ -73,7 +74,7 @@ WebDriverWait wait = new WebDriverWait(driver,30);
 
 	public void sendKeys(CharSequence... keysToSend) {
 		// TODO Auto-generated method stub
-                flash(element);
+              //  flash(element);
                 Log.info("Inside");
 		if(element.isEnabled() && element.isDisplayed() ) {
 		element.sendKeys(keysToSend);
@@ -178,7 +179,8 @@ WebDriverWait wait = new WebDriverWait(driver,30);
        wait.until(ExpectedConditions.presenceOfElementLocated(by));
        return driver.findElement(by) ;
     }
- public static void flash(WebElement element ) {
+ 
+    public static void flash(WebElement element ) {
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         String bgcolor  = element.getCssValue("backgroundColor");
         for (int i = 0; i <  3; i++) {

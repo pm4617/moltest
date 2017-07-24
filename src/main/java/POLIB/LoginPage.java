@@ -2,6 +2,8 @@ package POLIB;
 
 import MYUTILS.Log;
 import MYUTILS.PropertyReader;
+import static POLIB.HomePage.Lsigninbutton;
+import static POLIB.HomePage.signinbutton;
 import WRAPPER.WebElementImpl;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -43,6 +45,13 @@ public class LoginPage extends BasePage {
         return new HomePage(driver);
     }
 
+      public static WebElementImpl signinbutton() {
+		 signinbutton = new WebElementImpl(Lsigninbutton);
+                //classcodesrch = new WebElementImpl(Lclasscodesrch);
+                Log.info("Looked up Lsigninbutton by locator " + Lsigninbutton);
+		return signinbutton;
+	}
+      
     public static WebElementImpl searchtextbox() {
         
         Log.info(">>>"+ Lsearchtextbox.toString());

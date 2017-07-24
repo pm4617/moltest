@@ -2,12 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SmokeSuite" parallel="false">
        <listeners>
-              <listener class-name="MYUTILS.Listener" />
-                <listener class-name="MYUTILS.Listeners" />
+          <!--    <listener class-name="MYUTILS.Listener" />
+              <listener class-name="MYUTILS.Listeners" />
+              -->
+              <listener class-name="MYUTILS.ExtentReporterNG"/>
        </listeners>  
   <test name="Regression1">
     <classes>
       <class name="moltest.NewTest"/>
+      <class name="moltest.test2"/>
           </classes>
   </test>
 

@@ -38,12 +38,7 @@ public class HomePage extends BasePage {
 	}
         
         
-        public static WebElementImpl signinbutton() {
-		 signinbutton = new WebElementImpl(Lsigninbutton);
-                //classcodesrch = new WebElementImpl(Lclasscodesrch);
-                Log.info("Looked up Lsigninbutton by locator " + Lsigninbutton);
-		return signinbutton;
-	}
+      
         
              public static WebElementImpl email() {
 		 email = new WebElementImpl(Lemail);

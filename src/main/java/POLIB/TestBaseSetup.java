@@ -24,7 +24,7 @@ public class TestBaseSetup {
 
 	public static WebDriver driver;
 	static String driverPath = "D:\\chromedriver\\" ;
-    public String URL = "no such page";
+        public String URL = "no such page";
 	public static WebDriver getDriver() {
 		return driver;
 	}
@@ -77,7 +77,7 @@ public class TestBaseSetup {
         Log.startTestCase(this.toString());
         try {
             PropertyReader pr = new PropertyReader("src/main/java/config/molconfig.properties");
-               URL= pr.getProperty("uwurl");
+               URL= pr.getProperty("ebay");
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -93,8 +93,9 @@ public class TestBaseSetup {
     @BeforeMethod
     public void beforeMethod()
     {
-            driver = new FirefoxDriver();
-            driver.get(URL);
+  //          driver = new FirefoxDriver();
+            setDriver("chrome", "http://www.ebay.com");
+     //       driver.get(URL);
             System.out.println(" In Before Method ");
     }
     
